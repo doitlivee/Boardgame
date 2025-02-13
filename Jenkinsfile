@@ -22,7 +22,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh "mvn package"
-                Jfrog_user_name ="myfiles are not let ready"
+                jfrog_user ="myfiles are not let ready"
             }
         }
     }
